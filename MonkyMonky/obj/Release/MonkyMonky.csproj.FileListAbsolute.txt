@@ -7,3 +7,17 @@ D:\JulesRenz - import\Programmierung\c#\privat\MonkyMonky\MonkyMonky\obj\Release
 D:\JulesRenz - import\Programmierung\c#\privat\MonkyMonky\MonkyMonky\obj\Release\MonkyMonky.csproj.GenerateResource.Cache
 D:\JulesRenz - import\Programmierung\c#\privat\MonkyMonky\MonkyMonky\obj\Release\MonkyMonky.exe
 D:\JulesRenz - import\Programmierung\c#\privat\MonkyMonky\MonkyMonky\obj\Release\MonkyMonky.pdb
+C:\Users\Julian\Documents\git\MonkyMonky\MonkyMonky\bin\Any CPU\Release\MonkyMonky.exe.config
+C:\Users\Julian\Documents\git\MonkyMonky\MonkyMonky\bin\Any CPU\Release\MonkyMonky.exe.manifest
+C:\Users\Julian\Documents\git\MonkyMonky\MonkyMonky\bin\Any CPU\Release\MonkyMonky.application
+C:\Users\Julian\Documents\git\MonkyMonky\MonkyMonky\bin\Any CPU\Release\MonkyMonky.exe
+C:\Users\Julian\Documents\git\MonkyMonky\MonkyMonky\bin\Any CPU\Release\MonkyMonky.pdb
+C:\Users\Julian\Documents\git\MonkyMonky\MonkyMonky\obj\Release\MonkyMonky.Form1.resources
+C:\Users\Julian\Documents\git\MonkyMonky\MonkyMonky\obj\Release\MonkyMonky.FormNewFileDialog.resources
+C:\Users\Julian\Documents\git\MonkyMonky\MonkyMonky\obj\Release\MonkyMonky.Properties.Resources.resources
+C:\Users\Julian\Documents\git\MonkyMonky\MonkyMonky\obj\Release\MonkyMonky.csproj.GenerateResource.Cache
+C:\Users\Julian\Documents\git\MonkyMonky\MonkyMonky\obj\Release\MonkyMonky.TrustInfo.xml
+C:\Users\Julian\Documents\git\MonkyMonky\MonkyMonky\obj\Release\MonkyMonky.exe.manifest
+C:\Users\Julian\Documents\git\MonkyMonky\MonkyMonky\obj\Release\MonkyMonky.application
+C:\Users\Julian\Documents\git\MonkyMonky\MonkyMonky\obj\Release\MonkyMonky.exe
+C:\Users\Julian\Documents\git\MonkyMonky\MonkyMonky\obj\Release\MonkyMonky.pdb

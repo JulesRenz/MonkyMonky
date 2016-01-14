@@ -39,6 +39,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(317, 20);
             this.textBox1.TabIndex = 1;
+            this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             // 
             // label1
             // 
@@ -71,6 +72,7 @@
             this.Name = "FormNewFileDialog";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MonkyMonky found a new File!";
+            this.Load += new System.EventHandler(this.FormNewFileDialog_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

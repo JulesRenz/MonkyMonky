@@ -11,23 +11,16 @@ using System.Windows.Forms;
 
 namespace MonkyMonky
 {
-    //MonkyMonky.
-    //Monitors a set of folders for added files. If added files are detected, the user is given the opportunity 
-    //to replace the filename with a chosen one and all occurences of the old filename within the file are replaced
-    //with the new one
-
-    //Start: 17:20
-    //Break: 18:55-19:45
-    //End: 20:45
-    //------------------
-    //Total: 2:35
+          
 
 
-
+    /// <summary>
+    /// Main Form
+    /// </summary>
     public partial class Form1 : Form
     {
         //path to the config file
-        string cfgFile = Application.StartupPath + "\\config.cfg";
+        string cfgFile = /*Application.StartupPath + */".\\config.cfg";
 
         //a list of directories, which are all scanned
         List<DirectoryInfo> watchDirs = new List<DirectoryInfo>();
@@ -46,13 +39,14 @@ namespace MonkyMonky
             InitializeComponent();
 
             //Greet user
-            label1.Text = "MonkyMonky Version 0.1";
+            label1.Text = "MonkyMonky Version 0.2.0";
             label2.Text = "Looking for configuration file " + cfgFile;
 
             //Check Cfg File
             if (File.Exists(cfgFile))
             {
                 label2.Text += "... OK!";
+                label2.ForeColor = Color.DarkGreen;
 
                 //read configuration file into program
                 string[] fileLines = File.ReadAllLines(cfgFile);
@@ -60,11 +54,15 @@ namespace MonkyMonky
                 //loop over all read lines
                 foreach(string line in fileLines)
                 {
-                    //if the current line is a valid directory
-                    if(Directory.Exists(line))
-                    {
-                        //add it to our watchlist
-                        watchDirs.Add(new DirectoryInfo(line));
+                    //ignore comments
+                    if(!line.StartsWith("#") && line != string.Empty)
+                    { 
+                        //if the current line is a valid directory
+                        if(Directory.Exists(line))
+                        {
+                            //add it to our watchlist
+                            watchDirs.Add(new DirectoryInfo(line));
+                        }
                     }
                 }
 
@@ -103,6 +101,7 @@ namespace MonkyMonky
             else
             {
                 label2.Text += "... FAIL!";
+                label2.ForeColor = Color.Red;
             }
         }
 
@@ -271,19 +270,26 @@ namespace MonkyMonky
             string tempLineValue;
             using (FileStream inputStream = File.OpenRead(originalFile))
             {
-                using (StreamReader inputReader = new StreamReader(inputStream))
+                using (StreamReader inputReader = new StreamReader(inputStream, Encoding.Default))
                 {
-                    using (StreamWriter outputWriter = File.AppendText(outputFile))
-                    {
-                        while (null != (tempLineValue = inputReader.ReadLine()))
+                    try //try executing the code
+                    {   
+                        using (StreamWriter outputWriter = File.AppendText(outputFile))
                         {
-                            outputWriter.WriteLine(tempLineValue.Replace(searchTerm, replaceTerm));
+                            inputReader.Peek();
+                            while (null != (tempLineValue = inputReader.ReadLine()))
+                            {
+                                outputWriter.WriteLine(tempLineValue.Replace(searchTerm, replaceTerm));
+                            }
                         }
+                    }
+                    catch (IOException e) //catch every error
+                    {
+                        MessageBox.Show("File names must be changed!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
             }
         }
-
 
         private void Form1_Load(object sender, EventArgs e)
         {

@@ -1,0 +1,14 @@
+C:\Users\Julian\Documents\git\MonkyMonky\MonkyMonky\bin\x64\Release\MonkyMonky.exe.config
+C:\Users\Julian\Documents\git\MonkyMonky\MonkyMonky\bin\x64\Release\MonkyMonky.exe.manifest
+C:\Users\Julian\Documents\git\MonkyMonky\MonkyMonky\bin\x64\Release\MonkyMonky.application
+C:\Users\Julian\Documents\git\MonkyMonky\MonkyMonky\bin\x64\Release\MonkyMonky.exe
+C:\Users\Julian\Documents\git\MonkyMonky\MonkyMonky\bin\x64\Release\MonkyMonky.pdb
+C:\Users\Julian\Documents\git\MonkyMonky\MonkyMonky\obj\x64\Release\MonkyMonky.Form1.resources
+C:\Users\Julian\Documents\git\MonkyMonky\MonkyMonky\obj\x64\Release\MonkyMonky.FormNewFileDialog.resources
+C:\Users\Julian\Documents\git\MonkyMonky\MonkyMonky\obj\x64\Release\MonkyMonky.Properties.Resources.resources
+C:\Users\Julian\Documents\git\MonkyMonky\MonkyMonky\obj\x64\Release\MonkyMonky.csproj.GenerateResource.Cache
+C:\Users\Julian\Documents\git\MonkyMonky\MonkyMonky\obj\x64\Release\MonkyMonky.TrustInfo.xml
+C:\Users\Julian\Documents\git\MonkyMonky\MonkyMonky\obj\x64\Release\MonkyMonky.exe.manifest
+C:\Users\Julian\Documents\git\MonkyMonky\MonkyMonky\obj\x64\Release\MonkyMonky.application
+C:\Users\Julian\Documents\git\MonkyMonky\MonkyMonky\obj\x64\Release\MonkyMonky.exe
+C:\Users\Julian\Documents\git\MonkyMonky\MonkyMonky\obj\x64\Release\MonkyMonky.pdb

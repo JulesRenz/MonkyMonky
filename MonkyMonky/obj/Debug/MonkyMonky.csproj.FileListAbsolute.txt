@@ -8,3 +8,17 @@ D:\JulesRenz - import\Programmierung\c#\privat\MonkyMonky\MonkyMonky\obj\Debug\M
 D:\JulesRenz - import\Programmierung\c#\privat\MonkyMonky\MonkyMonky\obj\Debug\MonkyMonky.exe
 D:\JulesRenz - import\Programmierung\c#\privat\MonkyMonky\MonkyMonky\obj\Debug\MonkyMonky.pdb
 D:\JulesRenz - import\Programmierung\c#\privat\MonkyMonky\MonkyMonky\obj\Debug\MonkyMonky.FormNewFileDialog.resources
+C:\Users\Julian\Documents\git\MonkyMonky\MonkyMonky\bin\Any CPU\Debug\MonkyMonky.exe.config
+C:\Users\Julian\Documents\git\MonkyMonky\MonkyMonky\bin\Any CPU\Debug\MonkyMonky.exe.manifest
+C:\Users\Julian\Documents\git\MonkyMonky\MonkyMonky\bin\Any CPU\Debug\MonkyMonky.application
+C:\Users\Julian\Documents\git\MonkyMonky\MonkyMonky\bin\Any CPU\Debug\MonkyMonky.exe
+C:\Users\Julian\Documents\git\MonkyMonky\MonkyMonky\bin\Any CPU\Debug\MonkyMonky.pdb
+C:\Users\Julian\Documents\git\MonkyMonky\MonkyMonky\obj\Debug\MonkyMonky.Form1.resources
+C:\Users\Julian\Documents\git\MonkyMonky\MonkyMonky\obj\Debug\MonkyMonky.FormNewFileDialog.resources
+C:\Users\Julian\Documents\git\MonkyMonky\MonkyMonky\obj\Debug\MonkyMonky.Properties.Resources.resources
+C:\Users\Julian\Documents\git\MonkyMonky\MonkyMonky\obj\Debug\MonkyMonky.csproj.GenerateResource.Cache
+C:\Users\Julian\Documents\git\MonkyMonky\MonkyMonky\obj\Debug\MonkyMonky.TrustInfo.xml
+C:\Users\Julian\Documents\git\MonkyMonky\MonkyMonky\obj\Debug\MonkyMonky.exe.manifest
+C:\Users\Julian\Documents\git\MonkyMonky\MonkyMonky\obj\Debug\MonkyMonky.application
+C:\Users\Julian\Documents\git\MonkyMonky\MonkyMonky\obj\Debug\MonkyMonky.exe
+C:\Users\Julian\Documents\git\MonkyMonky\MonkyMonky\obj\Debug\MonkyMonky.pdb
