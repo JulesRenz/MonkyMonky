@@ -1,0 +1,9 @@
+D:\JulesRenz - import\Programmierung\c#\privat\MonkyMonky\MonkyMonky\bin\Release\MonkyMonky.exe.config
+D:\JulesRenz - import\Programmierung\c#\privat\MonkyMonky\MonkyMonky\bin\Release\MonkyMonky.exe
+D:\JulesRenz - import\Programmierung\c#\privat\MonkyMonky\MonkyMonky\bin\Release\MonkyMonky.pdb
+D:\JulesRenz - import\Programmierung\c#\privat\MonkyMonky\MonkyMonky\obj\Release\MonkyMonky.Form1.resources
+D:\JulesRenz - import\Programmierung\c#\privat\MonkyMonky\MonkyMonky\obj\Release\MonkyMonky.FormNewFileDialog.resources
+D:\JulesRenz - import\Programmierung\c#\privat\MonkyMonky\MonkyMonky\obj\Release\MonkyMonky.Properties.Resources.resources
+D:\JulesRenz - import\Programmierung\c#\privat\MonkyMonky\MonkyMonky\obj\Release\MonkyMonky.csproj.GenerateResource.Cache
+D:\JulesRenz - import\Programmierung\c#\privat\MonkyMonky\MonkyMonky\obj\Release\MonkyMonky.exe
+D:\JulesRenz - import\Programmierung\c#\privat\MonkyMonky\MonkyMonky\obj\Release\MonkyMonky.pdb

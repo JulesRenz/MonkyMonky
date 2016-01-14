@@ -1,0 +1,14 @@
+Hallo die ist testfile28
+
+testfile28 ist k
+	eine gew�hnliche Datei, Nein!
+		Es handelt sich um die speziellste Datei auf diesem System@!%&/(
+
+Dies ist eine leere Zeile
+
+Dies nicht: testfile28
+
+
+testfile1234 wird nicht beachtet.
+
+it's a trap!
