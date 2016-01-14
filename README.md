@@ -15,5 +15,6 @@
 	
 	Features ToDo:
 	- Replace label in main window with textbox where error messages can be displayed
+	- zip exe after build so it can be committed
 
     
