@@ -3,6 +3,8 @@
     to replace the filename with a chosen one and all occurences of the old filename within the file are replaced
     with the new one
 
+	Icon is licensed under CC Attribution 3.0 and was acquired from http://www.megaicons.net/iconspack-841/34237/. Many Thanks!
+
     Changelog:
     v0.1.0  initial release
     v0.2.0  - The dialog can now be submitted by hitting the enter key
