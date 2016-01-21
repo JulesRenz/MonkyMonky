@@ -11,9 +11,10 @@
             - the Config file can now contain comments and empty lines
             - Now uses ANSI Encoding to read the file to allow special (german) characters.
             - Error Handling, when the file name was not changed
-
+	v0.2.1	- User is asked if a already present output file shall be overwritten
+	
 	Bugs ToDo:
-	- Error handling, when the desired output file alraedy exists
+			- No known bugs at this point.
 	
 	Features ToDo:
 	- Replace label in main window with textbox where error messages can be displayed

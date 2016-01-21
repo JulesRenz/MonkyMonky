@@ -1,7 +1,7 @@
 Hallo die ist testfile24
 
 testfile24 ist k
-	eine gew�hnliche Datei, Nein!
+	eine gewöhnliche Datei, Nein!
 		Es handelt sich um die speziellste Datei auf diesem System@!%&/(
 
 Dies ist eine leere Zeile

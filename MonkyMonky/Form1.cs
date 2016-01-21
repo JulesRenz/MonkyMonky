@@ -177,18 +177,47 @@ namespace MonkyMonky
 
                                         string createdFile = filePath + "\\" + newNewFileName + fileExtension;
 
-                                        //now create a new dummyfile with the function
-                                        ReplaceTextInFile(originalNewFileName, createdFile, foundFileNameShort, newNewFileName);
+                                        //in case the user has entered a file that already exists, we sould issue a warning
+                                        bool skipFile = false;   //as long as the file does not exist and the user doesnt decide against over writing, we dont skip the file
+                                        if(File.Exists(createdFile))
+                                        {
+                                            DialogResult overwriteResult = MessageBox.Show(
+                                                    "The file '" + newNewFileName + fileExtension + "' already exists." + 
+                                                    "\nDo you want to overwrite the file?" +
+                                                    "\nIf you decide 'no', the file '" + originalNewFileNameShort + "' will be deleted.",
+                                                "File already exists!",
+                                                MessageBoxButtons.YesNo,
+                                                MessageBoxIcon.Warning,
+                                                MessageBoxDefaultButton.Button2
+                                                );
 
-                                        //Delete the original file - with " - Copy" suffix
-                                        File.Delete(originalNewFileName);
+                                            //when the user wants to NOT overwrite the file, we skip it
+                                            if(overwriteResult == DialogResult.No)
+                                            {
+                                                skipFile = true;
+                                            }
+                                        }
 
-                                        //now, add the new file to the directory
-                                        //we cannot directly add the new entry into the dictionary
-                                        //since we are currently looping over it. 
-                                        //Instead, remember the file and add afterwards
-                                        filesToAddToDictionary.Add(createdFile);
+                                        //when the file is not flagged for skipping, we procede
+                                        if(!skipFile)
+                                        { 
+                                            //now create a new dummyfile with the function
+                                            ReplaceTextInFile(originalNewFileName, createdFile, foundFileNameShort, newNewFileName);
 
+                                            //Delete the original file - with " - Copy" suffix
+                                            File.Delete(originalNewFileName);
+
+                                            //now, add the new file to the directory
+                                            //we cannot directly add the new entry into the dictionary
+                                            //since we are currently looping over it. 
+                                            //Instead, remember the file and add afterwards
+                                            filesToAddToDictionary.Add(createdFile);
+                                        }
+                                        else
+                                        {
+                                            //Delete the original file - with " - Copy" suffix
+                                            File.Delete(originalNewFileName);
+                                        }
                                         //break from loop to save computing power, there wont be any more matches
                                         break;
                                     }
@@ -198,7 +227,11 @@ namespace MonkyMonky
                             //remember that file? now add it!
                             foreach (string createdFile in filesToAddToDictionary)
                             {
-                                fileLists[i].Add(createdFile, new FileInfo(createdFile));
+                                //only add the file if it is not already present in the dictionary
+                                if (!fileLists[i].ContainsKey(createdFile))
+                                { 
+                                    fileLists[i].Add(createdFile, new FileInfo(createdFile));
+                                }
                             }
                             //now delete all items from this list so it can be populated again next round
                             filesToAddToDictionary.Clear();
@@ -274,7 +307,7 @@ namespace MonkyMonky
                 {
                     try //try executing the code
                     {   
-                        using (StreamWriter outputWriter = File.AppendText(outputFile))
+                        using (StreamWriter outputWriter = File.CreateText(outputFile))
                         {
                             inputReader.Peek();
                             while (null != (tempLineValue = inputReader.ReadLine()))
