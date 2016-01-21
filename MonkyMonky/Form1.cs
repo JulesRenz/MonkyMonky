@@ -39,7 +39,7 @@ namespace MonkyMonky
             InitializeComponent();
 
             //Greet user
-            label1.Text = "MonkyMonky Version 0.2.0";
+            label1.Text = "MonkyMonky Version 0.2.1";
             label2.Text = "Looking for configuration file " + cfgFile;
 
             //Check Cfg File
